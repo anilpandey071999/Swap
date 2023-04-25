@@ -1,0 +1,25 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "test": "npx hardhat test",
+    "prepare": "husky install",
+    "postinstall": "hardhat compile --force"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "husky": "^7.0.2",
+    "@openzeppelin/hardhat-upgrades": "^1.21.0",
+    "@openzeppelin/test-helpers": "^0.5.16"
+  },
+  "dependencies": {
+    "@ethersproject/constants": "^5.7.0",
+    "@openzeppelin/contracts": "^4.7.3",
+    "@openzeppelin/contracts-upgradeable": "^4.7.3",
+    "@pancakeswap-libs/sdk": "^1.0.1",
+    "@uniswap/lib": "^4.0.1-alpha",
+    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "dotenv": "^16.0.3",
+    "hardhat": "^2.12.2"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "lib": ["es2020", "esnext", "es5"],
+    "target": "es2020",
+    "module": "commonjs",
+    "strict": true,
+    "strictNullChecks":false,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "outDir": "dist"
+  },
+  "include": ["./src", "./scripts", "./test"],
+  "files": ["./hardhat.config.ts"]
+}
